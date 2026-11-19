@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/waveshareteam/esp32-repo-template/v1/schema/product.schema.json",
+  "product": "ESP32-C6-LCD-1.3",
+  "product_url": "https://www.waveshare.com/esp32-c6-lcd-1.3.htm",
+  "tier": 0,
+  "target": "esp32c6",
+  "esp_idf": {
+    "versions": [
+      "v5.5.1"
+    ]
+  },
+  "arduino": {
+    "core": "3.0.1",
+    "fqbn": "esp32:esp32:esp32c6:FlashSize=4M,PartitionScheme=huge_app,CDCOnBoot=cdc"
+  }
+}
